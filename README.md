@@ -7,9 +7,7 @@ Natural Language to SQL( 以下简称`NL2SQL`)，是将自然语言（NL）转�
 
 
 
-### NL2SQL 简单示例
-
----
+## NL2SQL 简单示例
 
 表_1-1
 
@@ -23,9 +21,8 @@ Natural Language to SQL( 以下简称`NL2SQL`)，是将自然语言（NL）转�
 | RENN.N | 人人网 | 纽约证券交易所 |  1.61  |  -9.55   |  14.18   |
 
 Query：新浪和人人网的周涨跌幅分别是多少？
+
 SQL：    **SELECT** 周涨跌幅 **FROM** 表_1-1  **WHERE** 名称=‘新浪’ **OR** 名称=‘人人网’
-
-
 
 用户输入一句普通文本，模型将其转换为 SQL，与数据库表格交互得到查询结果："-4.52, -9.55"
 
@@ -33,31 +30,29 @@ SQL：    **SELECT** 周涨跌幅 **FROM** 表_1-1  **WHERE** 名称=‘新浪�
 
 
 
-### 已有数据集
-
----
+## 已有数据集
 
 Todo
 
 
 
-### 解决方案
-
----
+## 解决方案
 
 Todo
 
 
 
-### 参考论文
+## 参考论文
 
----
+#### `paper`下已有内容
 
-Todo
-
-
-
-
+```
+1.《Editing-Based SQL Query Generation for Cross-Domain Context-Dependent Questions》
+即 EditSQL 模型
+2.《Towards Complex Text-to-SQL in Cross-Domain Database with Intermediate Representation》
+即 IRNet 模型，Spider 数据集目前已经开源 SOTA 模型
+3.持续更新中 ...
+```
 
 
 
