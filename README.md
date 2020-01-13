@@ -1,5 +1,5 @@
 # NL2SQL
-Natural Language to SQL( 以下简称`NL2SQL`)，是将自然语言（NL）转换成标准SQL语言的过程，属于自然语言处理-语义分析（Semantic Parsing）领域中的子任务。
+Natural Language to SQL( 以下简称NL2SQL)，是将自然语言（NL）转换成标准SQL语言的过程，属于自然语言处理-语义分析（Semantic Parsing）领域中的子任务。
 
 它的目的可以简单概括为：**“打破人与结构化数据之间的壁垒”**，即用户可以通过文本描述完成对复杂数据库的查询工作，得到想要的结果。
 
@@ -39,24 +39,22 @@ SQL：    **SELECT** 周涨跌幅 **FROM** 表_1-1  **WHERE** 名称=‘新浪�
 Todo
 ```
 
-具体数据集可以在 ./data 目录下查看
+具体数据集可以在 **./data** 目录下查看
 
 ## 解决方案
 
 Todo
 
-
-
 ## 参考论文
 
-#### `paper`下已有内容
+#### paper文件夹已有内容
 
 ```
 1.《Editing-Based SQL Query Generation for Cross-Domain Context-Dependent Questions》
 即 EditSQL 模型
 
 2.《Towards Complex Text-to-SQL in Cross-Domain Database with Intermediate Representation》
-即 IRNet 模型，Spider 数据集目前已经开源 SOTA 模型
+即 IRNet 模型，Spider 数据集目前已经开源的 SOTA 模型
 
 3.持续更新中 ...
 ```
