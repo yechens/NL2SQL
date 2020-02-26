@@ -34,7 +34,8 @@ SQL：    **SELECT** 周涨跌幅 **FROM** 表_1-1  **WHERE** 名称=‘新浪�
 
 ```
 WikiSQL是一个大型的语义解析数据集，由80,654个自然语句表述和24,241张表格的sql标注构成。
-WikiSQL中的每一个问句的查询范围仅限于同一张表，不包含排序、分组、子查询等复杂操作。虽然数据规模大，SQL语法却非常简单；适合做NL2SQL任务入门。
+WikiSQL中的每一个问句的查询范围仅限于同一张表，不包含排序、分组、子查询等复杂操作。
+虽然数据规模大，SQL语法却非常简单；适合做NL2SQL任务入门。
 ```
 
 #### 2.Spider
@@ -42,7 +43,8 @@ WikiSQL中的每一个问句的查询范围仅限于同一张表，不包含排�
 [Spider](https://yale-lily.github.io/spider)
 
 ```
-耶鲁大学在2018年新提出的一个较大规模的NL2SQL数据集。该数据集包含了10,181条自然语言问句、分布在200个独立数据库中的5,693条SQL，内容覆盖了138个不同的领域。
+耶鲁大学在2018年新提出的一个较大规模的NL2SQL数据集。
+该数据集包含了10,181条自然语言问句、分布在200个独立数据库中的5,693条SQL，内容覆盖了138个不同的领域。
 涉及的SQL语法最全面，是目前难度最大的NL2SQL数据集。
 ```
 
@@ -78,6 +80,8 @@ WikitableQuestion是斯坦福自然语言处理小组的工作。数据集中每
 
 （2）[基于Bert的NL2SQL模型：一个简明的Baseline](https://kexue.fm/archives/6771)
 
+（3）[阿里天池首届中文NL2SQL挑战赛复赛第6名开源](https://tianchi.aliyun.com/competition/entrance/231716/introduction)
+
 ## 参考论文
 
 ```
@@ -105,5 +109,5 @@ SEQ2SQL：使用强化学习从自然语言生成结构化查询
 
 2.[首届中文NL2SQL挑战赛冠军比赛攻略_不上90不改名字](https://github.com/nudtnlp/tianchi-nl2sql-top1)
 
-3.[阿里天池首届中文NL2SQL挑战赛复赛第6名开源](https://tianchi.aliyun.com/competition/entrance/231716/introduction)
+3.[CSpider：Spider 数据集中文版](https://taolusi.github.io/CSpider-explorer/)
 
