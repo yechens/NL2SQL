@@ -30,7 +30,7 @@ SQL：    **SELECT** 周涨跌幅 **FROM** 表_1-1  **WHERE** 名称=‘新浪�
 
 #### 1.WikiSQL
 
-[WikiSQL 标注数据集](https://github.com/salesforce/WikiSQL) 适合入门
+[WikiSQL 标注数据集](https://github.com/salesforce/WikiSQL) 适合入门数据集
 
 ```
 WikiSQL是一个大型的语义解析数据集，由80,654个自然语句表述和24,241张表格的sql标注构成。
@@ -40,7 +40,7 @@ WikiSQL中每一个问句的查询范围仅限于同一张表，不包含排序�
 
 #### 2.Spider
 
-[Spider](https://yale-lily.github.io/spider) 难度最大
+[Spider](https://yale-lily.github.io/spider) 难度最大数据集
 
 ```
 耶鲁大学在2018年新提出的一个大规模的NL2SQL（Text-to-SQL）数据集。
@@ -48,7 +48,7 @@ WikiSQL中每一个问句的查询范围仅限于同一张表，不包含排序�
 涉及的SQL语法最全面，是目前难度最大的NL2SQL数据集。
 ```
 
-####3.CSpider
+#### 3.CSpider
 
 [Cspider](https://taolusi.github.io/CSpider-explorer/) 中文Spider
 
