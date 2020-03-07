@@ -80,7 +80,15 @@ WikitableQuestion是斯坦福自然语言处理小组的工作。数据集中每
 
 （2）[基于Bert的NL2SQL模型：一个简明的Baseline](https://kexue.fm/archives/6771)
 
+追一科技苏剑林同学分享的**baseline**，强烈推荐还不熟悉nl2sql任务的同学阅读！
+
+比较详细的介绍了数据集、baseline通用模型的方案和trick
+
 （3）[阿里天池首届中文NL2SQL挑战赛复赛第6名开源](https://tianchi.aliyun.com/competition/entrance/231716/introduction)
+
+```
+Tips: 可能因为版权问题，NL2SQL中文挑战赛数据集已经停止对外公开。有需要的同学可以联系我或者比赛主办方索要竞赛数据！
+```
 
 ## 落地应用
 
@@ -98,9 +106,9 @@ WikitableQuestion是斯坦福自然语言处理小组的工作。数据集中每
 
   真实应用案例：浙江xxx**公安局破案机器人项目**（之前接触的实习项目）
 
-  例如民警询问 “**粤A123456车主的行动轨迹**”，nl2sql模型返回
+  具体demo可以查看下方图片。其中`question`表示自然语言问句，`sql_str`表示模型预测、拼接的sql语句，`sql_json`是json格式的sql语句，方便和下游任务对齐。
 
-   **“select   活动地点，活动时间    from   multi_table  where  车牌=粤A123456”**
+  
 
 - 内容编码
 
