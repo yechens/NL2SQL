@@ -1,9 +1,11 @@
-# NL2SQL
-Natural Language to SQL( 以下简称NL2SQL)，是将自然语言（NL）转换成标准SQL语言的过程，属于自然语言处理-语义分析（Semantic Parsing）领域中的子任务。
+# Text2SQL
+Text to SQL( 以下简称Text2SQL)，是将自然语言文本（Text）转换成标准SQL语言的过程，属于自然语言处理-语义分析（Semantic Parsing）领域中的子任务。
 
 它的目的可以简单概括为：**“打破人与结构化数据之间的壁垒”**，即用户可以通过文本描述完成对复杂数据库的查询工作，得到想要的结果。
 
-## NL2SQL 简单示例
+## Text2SQL 简单示例
+
+#### 示例
 
 表_1-1
 
@@ -24,9 +26,15 @@ SQL：    **SELECT** 周涨跌幅 **FROM** 表_1-1  **WHERE** 名称=‘新浪�
 
 当然实际场景或业务中，需要查询的内容可能更加复杂。
 
+#### SQL组成
+
+SQL组成来自三部分：**数据库中元素**（表名、列名）、**问题中的词汇**、 **SQL关键字**
+
 ## 已有数据集
 
-现有NL2SQL数据集List：
+现有Text2SQL数据集List：
+
+![nl2sql实际应用demo](https://github.com/yechens/NL2SQL/blob/master/pic/nl2sql_dataset.png)
 
 #### 1.WikiSQL
 
@@ -67,13 +75,22 @@ WikitableQuestion是斯坦福自然语言处理小组的工作。数据集中每
 数据集包含来自各种主题的2,108个表和具有不同复杂性的22,033个问题
 ```
 
-#### 5.阿里天池NL2SQL中文挑战赛
+#### 5.天池NL2SQL中文挑战赛数据集
 
 [NL2SQL天池大赛](https://tianchi.aliyun.com/competition/entrance/231716/information) 中文NL2SQL数据集
 
 ```
-公开的NL2SQL数据集中唯一一份高质量的中文数据集，由比赛主办方追一科技提供。数据集使用金融以及通用领域的表格数据作为数据源，提供在此基础上人工标注的自然语言和SQL语句的匹配对。
+2020年之前公开的Text2SQL数据集中唯一一份高质量的中文数据集，由比赛主办方追一科技提供。数据集使用金融以及通用领域的表格数据作为数据源，提供在此基础上人工标注的自然语言和SQL语句的匹配对。
 一共包含49,867条有标注的训练集数据，10,000条无标注数据作为测试集
+```
+
+#### 6.DuSQL中文数据集
+
+[2020语言与智能技术竞赛：语义解析任务](https://aistudio.baidu.com/aistudio/competition/detail/30?isFromCcf=true) 难度接近Spider的中文数据集
+
+```
+2020语言与智能技术竞速提供的大规模开放领域的复杂中文Text-to-SQL数据集，语法覆盖了 "order by","group by","having","嵌套SQL","join" 等几乎所有SQL语法。
+包含18602训练集，2039开发集和4868测试集
 ```
 
 持续更新中....
@@ -110,7 +127,7 @@ Tips: 可能因为版权问题，NL2SQL中文挑战赛数据集已经停止对�
 
 一项技术无论新旧，如果不能落地，转变为产品，总是有很大的缺失。
 
-针对NL2SQL，可能的**落地应用**：
+针对Text2SQL，可能的**落地应用**：
 
 - 数据库查询系统
 
@@ -118,7 +135,7 @@ Tips: 可能因为版权问题，NL2SQL中文挑战赛数据集已经停止对�
 
 - 问答系统/问答机器人
 
-  真实应用案例：浙江xxx**公安局破案机器人项目**（之前接触的实习项目）
+  真实应用案例：浙江xxx**公安局破案机器人项目**（接触的实习项目）
 
   具体demo可以查看下方图片。其中`question`表示自然语言问句，`sql_str`表示模型预测、拼接的sql语句，`sql_json`是json格式的sql语句，方便和下游任务对齐。
 
@@ -144,10 +161,12 @@ MAPO：用于程序综合和语义分析的内存增强策略优化
 5.《SEQ2SQL- GENERATING STRUCTURED QUERIES FROM NATURAL LANGUAGE USING REINFORCEMENT LEARNING》
 SEQ2SQL：使用强化学习从自然语言生成结构化查询
 
-6.《SEQ2SQL: GENERATING STRUCTURED QUERIES
-FROM NATURAL LANGUAGE USING REINFORCEMENT
+6.《SEQ2SQL: GENERATING STRUCTURED QUERIES FROM NATURAL LANGUAGE USING REINFORCEMENT
 LEARNING》
 WikiSQL 数据集和任务介绍
+
+7.《RAT-SQL: Relation-Aware Schema Encoding and Linking for Text-to-SQL Parsers》
+Spider Top1 方案模型，基于GNN图网络的模型RAT-SQL
 ```
 
 详见 **paper** 目录
@@ -158,5 +177,5 @@ WikiSQL 数据集和任务介绍
 
 2.[首届中文NL2SQL挑战赛冠军比赛攻略_不上90不改名字（pdf）](https://github.com/nudtnlp/tianchi-nl2sql-top1)
 
-
+3.[**百度NLP：语义解析 (Text-to-SQL) 技术研究及应用**](https://mp.weixin.qq.com/s/FtsA4O_VTUqhhYS3Gq3G8Q)
 
