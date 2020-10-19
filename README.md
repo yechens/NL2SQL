@@ -113,6 +113,12 @@ SParC是一个跨域上下文语义分析的数据集，是Spider任务的上下
 
 持续更新中....
 
+## 比赛排名
+
+截止2020年10月19号，我们实验室（浙江大学DCD实验室—赵洲老师）所在的语义解析小组获得了**Spider排行榜top2**的成绩。
+
+![spider-top2](https://github.com/yechens/NL2SQL/blob/master/pic/Spider-top2.png)
+
 ## 解决方案
 
 #### 1.Spider榜单开源模型
