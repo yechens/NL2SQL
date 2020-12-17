@@ -1,5 +1,5 @@
 # Text2SQL
-Text to SQL( 以下简称Text2SQL)，是将自然语言文本（Text）转换成标准SQL语言的过程，属于自然语言处理-语义分析（Semantic Parsing）领域中的子任务。
+Text to SQL( 以下简称Text2SQL)，是将自然语言文本（Text）转换成结构化查询语言SQL的过程，属于自然语言处理-语义分析（Semantic Parsing）领域中的子任务。
 
 它的目的可以简单概括为：**“打破人与结构化数据之间的壁垒”**，即普通用户可以通过**自然语言描述**完成复杂数据库的查询工作，得到想要的结果。
 
@@ -115,7 +115,7 @@ SParC是一个跨域上下文语义分析的数据集，是Spider任务的上下
 
 ## 比赛排名
 
-截止2020年10月19号，我们实验室（浙江大学DCD实验室—赵洲老师）所在的语义解析小组获得了**Spider排行榜top2**的成绩。
+截止2020年10月19号，我们实验室（浙江大学DCD实验室）所在的语义解析小组获得了**Spider排行榜top2**的成绩。
 
 ![spider-top2](https://github.com/yechens/NL2SQL/blob/master/pic/Spider-top2.png)
 
@@ -146,6 +146,12 @@ SParC是一个跨域上下文语义分析的数据集，是Spider任务的上下
 ```
 Tips: 可能因为版权问题，NL2SQL中文挑战赛数据集已经停止对外公开。有需要的同学可以联系我或者比赛主办方索要竞赛数据！
 ```
+
+#### 3.基于NL和SQL的预训练语言模型
+
+（1）**TaBERT**：联合理解文本和表格数据的预训练
+
+（2）**GRAPPA**：用于表格语义解析的语法增强的预训练
 
 ## 落地应用
 
@@ -192,7 +198,13 @@ LEARNING》
 WikiSQL 数据集和任务介绍
 
 7.《RAT-SQL: Relation-Aware Schema Encoding and Linking for Text-to-SQL Parsers》
-Spider Top1 方案模型，基于GNN图网络的模型RAT-SQL
+Spider Top1 方案模型，基于关系型Attention的模型RAT-SQL
+
+8.《GRAPPA: Grammar-Augmented Pre-Training for Table Semantic Parsing》
+用于表格语义解析的语法增强的预训练
+
+9.《TABERT: Pretraining for Joint Understanding of Textual and Tabular Data》
+联合理解文本和表格数据的预训练
 ```
 
 详见 **paper** 目录
@@ -203,5 +215,7 @@ Spider Top1 方案模型，基于GNN图网络的模型RAT-SQL
 
 2.[首届中文NL2SQL挑战赛冠军比赛攻略_不上90不改名字（pdf）](https://github.com/nudtnlp/tianchi-nl2sql-top1)
 
-3.[**百度NLP：语义解析 (Text-to-SQL) 技术研究及应用**](https://mp.weixin.qq.com/s/FtsA4O_VTUqhhYS3Gq3G8Q)
+3.[百度NLP：语义解析 (Text-to-SQL) 技术研究及应用](https://mp.weixin.qq.com/s/FtsA4O_VTUqhhYS3Gq3G8Q)
+
+4.[**”林俊杰新签约了哪家公司？"让Text2SQL模型自动帮你回答！**](https://zhuanlan.zhihu.com/p/328235375) (A Survey)
 
