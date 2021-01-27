@@ -193,22 +193,18 @@ X-SQL 模型
 MAPO：用于程序综合和语义分析的内存增强策略优化
 
 5.《SEQ2SQL- GENERATING STRUCTURED QUERIES FROM NATURAL LANGUAGE USING REINFORCEMENT LEARNING》
-SEQ2SQL：使用强化学习从自然语言生成结构化查询
-
-6.《SEQ2SQL: GENERATING STRUCTURED QUERIES FROM NATURAL LANGUAGE USING REINFORCEMENT
-LEARNING》
 WikiSQL 数据集和任务介绍
 
-7.《RAT-SQL: Relation-Aware Schema Encoding and Linking for Text-to-SQL Parsers》
+6.《RAT-SQL: Relation-Aware Schema Encoding and Linking for Text-to-SQL Parsers》
 Spider Top1 方案模型，基于关系型Attention的模型RAT-SQL
 
-8.《GRAPPA: Grammar-Augmented Pre-Training for Table Semantic Parsing》
+7.《GRAPPA: Grammar-Augmented Pre-Training for Table Semantic Parsing》
 用于表格语义解析的语法增强的预训练
 
-9.《TABERT: Pretraining for Joint Understanding of Textual and Tabular Data》
+8.《TABERT: Pretraining for Joint Understanding of Textual and Tabular Data》
 联合理解文本和表格数据的预训练
 
-10.《Bridging Textual and Tabular Data for Cross-Domain Text-to-SQL Semantic Parsing》
+9.《Bridging Textual and Tabular Data for Cross-Domain Text-to-SQL Semantic Parsing》
 跨域文本到SQL语义解析的文本-表格数据连接模型
 ```
 
@@ -222,5 +218,7 @@ Spider Top1 方案模型，基于关系型Attention的模型RAT-SQL
 
 3.[百度NLP：语义解析 (Text-to-SQL) 技术研究及应用](https://mp.weixin.qq.com/s/FtsA4O_VTUqhhYS3Gq3G8Q)
 
-4.[**”想知道你家爱豆最近的演唱会？"让Text2SQL模型自动帮你回答！**](https://zhuanlan.zhihu.com/p/328235375) (A Survey)
+4.[”想知道你家爱豆最近的演唱会？"让Text2SQL模型自动帮你回答！](https://zhuanlan.zhihu.com/p/328235375) (A Survey)
+
+5.[**万万没想到，BERT学会写SQL了**](https://zhuanlan.zhihu.com/p/342365992) (BRIDGE顶会论文解读)
 
