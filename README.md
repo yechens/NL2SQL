@@ -129,7 +129,9 @@ SParC是一个跨域上下文语义分析的数据集，是Spider任务的上下
 
 （3）[RAT-SQL：基于关系Attention和抽象语法树的端到端SQL生成模型](https://github.com/Microsoft/rat-sql)
 
-（4）[BRIDGE：跨域文本到SQL语义解析的文本-表格数据连接模型](https://github.com/salesforce/TabularSemanticParsing)（latest）
+（4）[BRIDGE：跨域文本到SQL语义解析的文本-表格数据连接模型](https://github.com/salesforce/TabularSemanticParsing)
+
+（5）[LGESQL: Spider SOTA 解决方案](https://github.com/rhythmcao/text2sql-lgesql)
 
 #### 2.NL2SQL中文挑战赛方案
 
@@ -206,6 +208,9 @@ Spider Top1 方案模型，基于关系型Attention的模型RAT-SQL
 
 9.《Bridging Textual and Tabular Data for Cross-Domain Text-to-SQL Semantic Parsing》
 跨域文本到SQL语义解析的文本-表格数据连接模型
+
+10.《LGESQL- Line Graph Enhanced Text-to-SQL Model with Mixed Local and Non-Local Relations》
+Spider SOTA 解决方案论文
 ```
 
 详见 **paper** 目录
