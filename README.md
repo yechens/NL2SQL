@@ -220,6 +220,9 @@ Spider Top1 方案模型，基于关系型Attention的模型RAT-SQL
 
 10.《LGESQL- Line Graph Enhanced Text-to-SQL Model with Mixed Local and Non-Local Relations》
 Spider SOTA 解决方案论文
+
+11. 《CHASE: A Large-Scale and Pragmatic Chinese Dataset for Cross-Database Context-Dependent Text-to-SQL》
+CHASE 数据集论文，并测试对比了 RAT-SQL、IGSQL、EditSQL 三种模型(最好的模型效果目前只有43.7%)
 ```
 
 详见 **paper** 目录
