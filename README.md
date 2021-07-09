@@ -239,3 +239,5 @@ CHASE 数据集论文，并测试对比了 RAT-SQL、IGSQL、EditSQL 三种模�
 
 5.[**万万没想到，BERT学会写SQL了**](https://zhuanlan.zhihu.com/p/342365992) (BRIDGE顶会论文解读)
 
+6.[ACL 2021 ｜ CHASE:首个跨领域多轮Text2SQL中文数据集](https://zhuanlan.zhihu.com/p/384293232)（顶会解读）
+
