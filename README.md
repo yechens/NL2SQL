@@ -140,7 +140,9 @@ SParC是一个跨域上下文语义分析的数据集，是Spider任务的上下
 
 （4）[BRIDGE：跨域文本到SQL语义解析的文本-表格数据连接模型](https://github.com/salesforce/TabularSemanticParsing)
 
-（5）[LGESQL: Spider SOTA 解决方案](https://github.com/rhythmcao/text2sql-lgesql)
+（5）[LGESQL: 半监督自然语言理解双重学习](https://github.com/rhythmcao/text2sql-lgesql)
+
+（6）[Graphix-T5：Spider **SOTA** 解决方案](https://arxiv.org/abs/2301.07507)
 
 #### 2.NL2SQL中文挑战赛方案
 
@@ -157,7 +159,7 @@ SParC是一个跨域上下文语义分析的数据集，是Spider任务的上下
 （4）[首届中文NL2SQL挑战赛复赛第6名开源](https://tianchi.aliyun.com/competition/entrance/231716/introduction)
 
 ```
-Tips: 可能因为版权问题，NL2SQL中文挑战赛数据集已经停止对外公开。有需要的同学可以联系我或者比赛主办方索要竞赛数据！
+Tips: 因为版权问题，NL2SQL中文挑战赛数据集已经停止对外公开。有需要的同学可以联系我或者比赛主办方索要竞赛数据！
 ```
 
 #### 3.基于NL和SQL的预训练语言模型
@@ -223,6 +225,9 @@ Spider SOTA 解决方案论文
 
 11. 《CHASE: A Large-Scale and Pragmatic Chinese Dataset for Cross-Database Context-Dependent Text-to-SQL》
 CHASE 数据集论文，并测试对比了 RAT-SQL、IGSQL、EditSQL 三种模型(最好的模型效果目前只有43.7%)
+
+12. 《Graphix-T5: Mixing Pre-Trained Transformers with Graph-Aware Layers for Text-to-SQL Parsing》
+提出了将预训练Transformer和图感知网络共同用于Text2SQL任务的 Graphix-T5 模型，也是当前Spider榜单的SOTA模型
 ```
 
 详见 **paper** 目录
